@@ -1,0 +1,22 @@
+html, body {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  text-align: center;
+}
+
+input {
+  width: 3em;
+}
+
+input.invalid{
+  border-color: #900;
+  background-color: #FDD;
+}
+
+input:focus.invalid {
+  outline: none;
+}
